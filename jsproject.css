@@ -1,0 +1,18 @@
+ label {
+     font-weight: bold;
+     display: block;
+     margin-bottom: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     background: antiquewhite;
+     color: blue;
+     box-shadow: 1px 1px 2px royalblue;
+     border-radius: 10px;
+     padding: 3px 10px;
+     cursor: pointer;
+ }
+ 
+ body {
+     background-color: antiquewhite;
+ }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FILE FOLDER </title>
+    <link rel="stylesheet" href="jsproject.css" />
+</head>
+<html>
+<section>
+    <h1>FOLDER UPLOAD</h1>
+
+    <body>
+
+        <topic class="FILE FOLDER">
+            <div class=" container .font-sans mx-auto bg-white text-blue ">
+                <div class="dialogs ">
+                    <h4>Select folder</h4>
+                    <ul class=" ">
+                        <li>
+                            <b>SINGEL FILE :</b>
+                            <div class="flex bg-grey-lighter ">
+                                <label class="w-48 flex flex-col items-center px-2 py-2 bg-white text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-white ">
+        
+        <span class="mt-2 text-base leading-normal ">Select a file</span>
+        <input type='file' class="hidden fdialog "/>
+    </label>
+                            </div>
+                        </li>
+                        <li>
+                            <b>MULTIPLE FILE :</b>
+                            <div class="flex bg-grey-lighter ">
+                                <label class="w-48 flex flex-col items-center px-2 py-2 bg-white text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-white ">
+        
+        <span class="mt-2 text-base leading-normal ">Select files</span>
+        <input type='file' class="hidden fdialog " multiple />
+    </label>
+                            </div>
+                        </li>
+                        <li><b>DIRECTORY :</b>
+                            <div class="flex bg-grey-lighter ">
+                                <label class="w-48 flex flex-col items-center px-2 py-2 bg-white text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-white ">
+        
+        <span class="mt-2 text-base leading-normal ">Select a folder</span>
+        <input type='file' class="hidden fdialog " webkitdirectory />
+    </label>
+                            </div>
+                    </ul>
+                </div>
+
+                <div class="file-listing " style="padding: 10px; ">
+                    <button>UPLOAD</button>
+                    <ul id="listing " class=" ">
+                    </ul>
+
+                </div>
+
+            </div>
+</section>
+<script src="JS PROJECT.js"></script>
+</body>
+
+</html>
